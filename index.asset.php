@@ -1,6 +1,6 @@
 <?php
 
 return array(
-	'dependencies' => array('wp-blocks'),
-	'version' => '1.0.0'
+	'dependencies' => array('wp-blocks', 'wp-element'),
+	'version' => '1.0.1'
 );

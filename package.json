@@ -1,0 +1,17 @@
+{
+  "name": "gutblock",
+  "version": "1.0.0",
+  "description": "packages-scripts [https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-scripts/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^30.9.0"
+  },
+  "dependencies": {
+    "@wordpress/blocks": "^14.5.0"
+  }
+}
