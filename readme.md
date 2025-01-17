@@ -34,4 +34,12 @@ npx wp-scripts format
 npm i @wordpress/block-editor
 ```
 
+<https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/>
 
+quick dev start
+```
+$ npx @wordpress/create-block@latest todo-list
+$ cd todo-list
+$ npm start
+```
+<https://developer.wordpress.org/block-editor/getting-started/fundamentals/file-structure-of-a-block/>
