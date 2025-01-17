@@ -30,4 +30,8 @@ add npm_modules to .gitignore
 npx wp-scripts format
 ```
 
+``` 
+npm i @wordpress/block-editor
+```
+
 

@@ -1,12 +1,19 @@
 //let registerBlockType = wp.blocks.registerBlockType;
 //let createElement = wp.element.createElement;
-import { registerBlockType } from '@wordpress/blocks';
+import {registerBlockType} from '@wordpress/blocks';
+import {useBlockProps} from "@wordpress/block-editor";
+import "./style.scss";
+import "./editor.scss";
 
 registerBlockType( 'alkozp/gutblock', {
 	edit: function () {
-		return <h1 className="admin_title">Edit 2025-2</h1>;
+		const blockProps = useBlockProps();
+		console.log(blockProps);
+		return <h1 {...blockProps}>Edit 2025-2</h1>;
 	},
 	save: function () {
-		return <h1 className="front_title">Save 2025-2</h1>;
+		const blockProps = useBlockProps.save();
+		console.log(blockProps);
+		return <h1 {...blockProps}>Save 2025-2</h1>;
 	},
 } );
