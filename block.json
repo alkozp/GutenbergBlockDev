@@ -1,11 +1,10 @@
 {
-  "apiVersion": 2,
-  "name": "alkozp/gutblock",
-  "title": "Gut Block",
-  "description": "cool gut block",
-  "category": "text",
-  "icon": "info",
-  "textdomain": "gutblock",
-  "editorScript": "file:./index.js"
-
+	"apiVersion": 2,
+	"name": "alkozp/gutblock",
+	"title": "Gut Block",
+	"description": "cool gut block",
+	"category": "text",
+	"icon": "info",
+	"textdomain": "gutblock",
+	"editorScript": "file:./build/index.js"
 }
