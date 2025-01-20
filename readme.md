@@ -43,3 +43,11 @@ $ cd todo-list
 $ npm start
 ```
 <https://developer.wordpress.org/block-editor/getting-started/fundamentals/file-structure-of-a-block/>
+
+```
+npm run format
+```
+
+<https://developer.wordpress.org/block-editor/reference-guides/packages/packages-eslint-plugin/>
+
+<https://developer.wordpress.org/block-editor/reference-guides/packages/packages-stylelint-config/>

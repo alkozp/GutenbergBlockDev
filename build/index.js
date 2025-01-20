@@ -10,7 +10,7 @@
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ edit)
+/* harmony export */   "default": () => (/* binding */ Edit)
 /* harmony export */ });
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/block-editor */ "@wordpress/block-editor");
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__);
@@ -20,9 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function edit() {
+function Edit() {
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps)();
-  console.log(blockProps);
+  //console.log( blockProps );
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
     ...blockProps,
     children: "Edit 2025-2"
@@ -75,7 +75,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function save() {
   const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.useBlockProps.save();
-  console.log(blockProps);
+  //console.log( blockProps );
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h1", {
     ...blockProps,
     children: "Save 2025-2"
