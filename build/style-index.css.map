@@ -1,0 +1,1 @@
+{"version":3,"file":"./style-index.css","mappings":";;;AAEA;EACE;EACA,wBAJM;AAGR,C","sources":["webpack://gutblock/./src/style.scss"],"sourcesContent":["$color: orange;\r\n\r\n.wp-block-alkozp-gutblock {\r\n  font-size: 10rem;\r\n  background-color: $color;\r\n}"],"names":[],"sourceRoot":""}
