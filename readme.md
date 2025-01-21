@@ -51,3 +51,6 @@ npm run format
 <https://developer.wordpress.org/block-editor/reference-guides/packages/packages-eslint-plugin/>
 
 <https://developer.wordpress.org/block-editor/reference-guides/packages/packages-stylelint-config/>
+
+RichText component <https://github.com/WordPress/gutenberg/blob/HEAD/packages/block-editor/src/components/rich-text/README.md>
+

@@ -1,7 +1,17 @@
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 import './editor.scss';
-export default function Edit() {
-	const blockProps = useBlockProps();
+export default function Edit( { attributes, setAttributes } ) {
+	//const blockProps = useBlockProps();
 	//console.log( blockProps );
-	return <h1 { ...blockProps }>Edit 2025-2</h1>;
+	const { text } = attributes;
+	return (
+		<RichText
+			{ ...useBlockProps() }
+			tagName="h1"
+			value={ text }
+			onChange={ ( value ) => setAttributes( { text: value } ) }
+			placeholder={ 'Text here' }
+			allowedFormats={ [ 'core/bold' ] }
+		/>
+	);
 }
